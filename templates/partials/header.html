@@ -1,0 +1,13 @@
+{% block header %}
+<nav class="top-nav">
+    <div class="container">
+        <div class="row">
+            {% block side_nav %}
+                {% include 'partials/side-nav.html' %}
+            {% endblock %}
+            <p class="page-title">Drupal Generator</p>
+            <a>A GUI to generate Drupal 8 module using the Drupal Console project</a>
+        </div>
+    </div>
+</nav>
+{% endblock %}

@@ -1,0 +1,39 @@
+@import "materialize";
+html{
+  color: #000000;
+}
+header, main, footer {
+  padding-left: 240px;
+}
+@media only screen and (max-width : 992px) {
+  header, main, footer {
+    padding-left: 0;
+  }
+}
+ul.side-nav.fixed {
+  color: #000000;
+}
+@media #{$medium-and-up} {
+  .container {
+    width: 85%;
+  }
+}
+header{
+  p.page-title{
+    font-size: 48px;
+    line-height: 48px;
+    margin: 20px 0px 0px;
+  }
+  .top-nav{
+    height: 150px;
+  }
+  .logo-container{
+    img{
+      width: 120px;
+      margin-top:15px;
+    }
+    text-align: center;
+    height: 150px;
+    border-bottom: 1px solid #DDD;
+  }
+}

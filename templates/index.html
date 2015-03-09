@@ -1,0 +1,17 @@
+{% extends "layout.html" %}
+{% block main %}
+    <header>
+        {% block header %}
+            {% include 'partials/header.html' %}
+        {% endblock %}
+    </header>
+    <main>
+        {% block content %}
+            {% include 'partials/content.html' %}
+        {% endblock %}
+        {% block content_bottom %}
+            {% include 'partials/content_bottom.html' %}
+        {% endblock %}
+    </main>
+    <footer></footer>
+{% endblock %}
