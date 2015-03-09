@@ -1,0 +1,44 @@
+<section id="controller">
+  <h1>Generate Controller</h1>
+  <div class="row">
+    <form class="col s12">
+      <div class="row">
+        <input type="hidden"/>
+        <div class="input-field col s6">
+          <input id="module_name" type="text" value="demo" disabled>
+          <label for="module_name">Module Name</label>
+        </div>
+        <div class="input-field col s6">
+          <input id="controller_class_name" type="text" value="DefaultController">
+          <label for="controller_class_name">Controller class name</label>
+        </div>
+      </div>
+      <div class="row">
+        <input type="hidden"/>
+        <div class="input-field col s6">
+          <input id="method_name" type="text" value="index">
+          <label for="method_name">Method name</label>
+        </div>
+        <div class="input-field col s6">
+          <input id="route_path" type="text" value="demo/index">
+          <label for="route_path">Route path</label>
+        </div>
+      </div>
+      <div class="row">
+        <input type="hidden"/>
+        <div class="input-field col s12">
+          <input type="checkbox" id="unit_test" />
+          <label for="unit_test">Generate unit test</label>
+        </div>
+        <div class="input-field col s4">
+          <input type="checkbox" id="load_service" />
+          <label for="load_service">Load service from the container</label>
+        </div>
+        <div class="input-field col s8">
+          <input id="service_container" type="text" value="database">
+          <label for="service_container">Services</label>
+        </div>
+      </div>
+    </form>
+  </div>
+</section>

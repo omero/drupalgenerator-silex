@@ -1,2 +1,5 @@
 /vendor/
 .idea/
+web/.sass*
+var/cache
+var/logs
