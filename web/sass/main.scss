@@ -37,3 +37,13 @@ header{
     border-bottom: 1px solid #DDD;
   }
 }
+li.active{
+  background: $primary-color;
+  a{
+    color: white;
+  }
+}
+ul.side-nav.fixed{
+  overflow: auto;
+
+}

@@ -12075,3 +12075,17 @@ header .logo-container img {
   width: 120px;
   margin-top: 15px;
 }
+
+/* line 40, ../sass/main.scss */
+li.active {
+  background: #0288d1;
+}
+/* line 42, ../sass/main.scss */
+li.active a {
+  color: white;
+}
+
+/* line 46, ../sass/main.scss */
+ul.side-nav.fixed {
+  overflow: auto;
+}
