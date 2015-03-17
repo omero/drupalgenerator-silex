@@ -5,6 +5,7 @@
         $('.collapsible').collapsible({
             accordion : false // A setting that changes the collapsible behavior to expandable instead of the default accordion style
         });
+        $('select').material_select();
         //Fade when change section
         $('#sections').children('section').not('#module').hide();
         // activate links main menu
@@ -20,7 +21,7 @@
 
         var $wrapper = $('.multi-field');
 
-        $('.multi-field-wrapper').each(function() {
+        /*$('.multi-field-wrapper').each(function() {
             $(".add-permission").click(function(e) {
                 e.preventDefault();
                 $('.multi-field:first-child').clone().appendTo($('.multi-field').parent());
@@ -31,6 +32,6 @@
                     $(this).parent('.multi-field').remove();
                 return false;
             });
-        });
+        });*/
     });
 }(jQuery));
