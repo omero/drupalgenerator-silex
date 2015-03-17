@@ -1,8 +1,17 @@
 {% block content %}
 <div class="container" id="sections">
-    {% include 'sections/module.html' %}
-    {% include 'sections/controller.html' %}
-    {% include 'sections/permission.html' %}
-    {% include 'sections/service.html' %}
+    {# Generators #}
+    {% include 'sections/generators/module.html.twig' %}
+    {% include 'sections/generators/controller.html.twig' %}
+    {% include 'sections/generators/permission.html.twig' %}
+    {% include 'sections/generators/service.html.twig' %}
+    {% include 'sections/generators/entity.html.twig' %}
+    {% include 'sections/generators/form-config.html.twig' %}
+    {# Plugins #}
+    {% include 'sections/plugin/block.html.twig' %}
+    {% include 'sections/plugin/image-effect.html.twig' %}
+    {% include 'sections/plugin/rest-resource.html.twig' %}
+    {# Third Generators #}
+    {% include 'sections/third/plugin/rules-action.html.twig' %}
 </div>
 {% endblock %}
